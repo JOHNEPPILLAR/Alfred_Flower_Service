@@ -1,7 +1,7 @@
 {
-  "name": "alfred_flower_service",
+  "name": "alfred_house_flowers_service",
   "version": "1.0.2",
-  "description": "ALFRED - Flower Service",
+  "description": "ALFRED - House Flowers Service",
   "author": "JP",
   "license": "MIT",
   "main": "lib/server/server.js",
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.17.0",
+    "eslint": "^7.18.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.1.0",

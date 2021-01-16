@@ -28,11 +28,11 @@ jobs:
 
       - name: Build docker container
         if: success()
-        run: docker build . -t ${{ secrets.DOCKER_REGISTERY_URL }}/alfred_house_flowers_service
+        run: docker build . -t ${{ secrets.DOCKER_REGISTERY_URL }}/alfred_house_plants_service
 
       - name: Push docker container to private registery
         if: success()
-        run: docker push ${{ secrets.DOCKER_REGISTERY_URL }}/alfred_house_flowers_service
+        run: docker push ${{ secrets.DOCKER_REGISTERY_URL }}/alfred_house_plants_service
 
       - name: Slack Notification on failure
         if: failure()

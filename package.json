@@ -1,7 +1,7 @@
 {
-  "name": "alfred_house_flowers_service",
+  "name": "alfred_house_plants_service",
   "version": "1.0.3",
-  "description": "ALFRED - House Flowers Service",
+  "description": "ALFRED - House Plants Service",
   "author": "JP",
   "license": "MIT",
   "main": "lib/server/server.js",
